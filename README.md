@@ -40,7 +40,7 @@ TextTest is a Python application that automates the conversion of speech to text
     python TextTest.py
     ```
 
-4.5 Or just open TextTest.py in VS Code or any other python IDE with python 3.10 installed.
+4.5 Or just open TextTest.py in VS Code or any other python IDE with python 3.10 installed and refer to step 3.5.
 
 5. Follow the prompts to enter the path to the input audio file. (audio/sample_audio.wav)
 

@@ -9,7 +9,7 @@ TextTest is a Python application that automates the conversion of speech to text
 1. Clone the repository:
 
     ```
-    git clone https://github.com/PacliKilla/CCS-Test/tree/main
+    git clone https://github.com/PacliKilla/CCS-Test.git
     ```
 
 2. Navigate to the project directory:

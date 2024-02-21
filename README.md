@@ -23,7 +23,7 @@ TextTest is a Python application that automates the conversion of speech to text
     ```
     pip install -r requirements.txt
     ```
-3.5 If you use VS Code or any other IDE, just open the cloned folder, and you will most probably get prompted to install all dependencies from requirements.txt
+3.5 If you use VS Code or any other IDE, just open the cloned folder, and you will most probably get prompted to install all dependencies from requirements.txt but if there is no prompt, open the IDE Terminal and write the above mentioned pip install -r requirements.txt
 
 
 ## Usage

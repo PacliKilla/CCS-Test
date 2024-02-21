@@ -15,7 +15,7 @@ TextTest is a Python application that automates the conversion of speech to text
 2. Navigate to the project directory:
 
     ```
-    cd your-repository
+    cd CCS-Test
     ```
 
 3. Install the required dependencies:

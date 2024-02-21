@@ -35,7 +35,7 @@ TextTest is a Python application that automates the conversion of speech to text
 4. Run the Python script:
 
     ```
-    python <TextTest>.py
+    python TextTest.py
     ```
 
 4.5 Or just open TextTest.py in VS Code or any other python IDE with python 3.10 installed.

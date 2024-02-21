@@ -40,7 +40,7 @@ TextTest is a Python application that automates the conversion of speech to text
 
 4.5 Or just open TextTest.py in VS Code or any other python IDE with python 3.10 installed.
 
-5. Follow the prompts to enter the path to the input audio file.
+5. Follow the prompts to enter the path to the input audio file. (audio/sample_audio.wav)
 
 6. On the first run of the script it will begin downloading the GPT4all model it will take around 1.9gb of memory and some time. The application then will process the audio, generate expert responses, and play the final audio response.
 

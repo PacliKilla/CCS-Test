@@ -6,6 +6,7 @@ import pygame
 from gpt4all import GPT4All
 import time
 
+# Process the audio using Google speech recognition
 def convert_audio_to_text(audio_file_path):
     recognizer = sr.Recognizer()
     with sr.AudioFile(audio_file_path) as source:
@@ -13,14 +14,17 @@ def convert_audio_to_text(audio_file_path):
         text = recognizer.recognize_google(audio_data)
     return text
 
+# Convert the text to speech using gTTS library
 def convert_text_to_speech(text, output_audio_path):
     tts = gTTS(text)
     tts.save(output_audio_path)
 
+# Initialize pygame for audio playback
 def play_audio(audio_file_path):
     pygame.mixer.init()
     pygame.mixer.music.load(audio_file_path)
     pygame.mixer.music.play()
+    # Wait until the playback is finished
     while pygame.mixer.music.get_busy():  
         time.sleep(0.1)
 
@@ -52,7 +56,10 @@ def main():
 
     print("GPT response:", gpt_response)
 
+    # Specify the output audio file path
     output_audio_path = "audio/output_audio.mp3"
+
+    # Convert the GPT response to speech and save it to the output audio file
     convert_text_to_speech(gpt_response, output_audio_path)
     print(f"GPT response saved as {output_audio_path}")
 

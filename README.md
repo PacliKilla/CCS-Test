@@ -1,5 +1,8 @@
 # TextTest
 
+![Screenshot](https://drive.google.com/uc?export=view&id=1j-1HVA6f2nhLO_TNwPk4YQWXPSQrlzYVwzj)
+
+
 ## Overview
 
 TextTest is a Python application that automates the conversion of speech to text, processes the text through a preconfigured GPT model acting as a specific expert, converts the GPT's response back to speech, and finally plays the resulting audio.
